@@ -1,0 +1,395 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "litecoin pool",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CurrentHashRateIntent",
+          "slots": [],
+          "samples": [
+            "for my current hash rate",
+            "for my current hashrate",
+            "for my hash rate",
+            "for my hashrate",
+            "how fast i'm mining",
+            "what's my hashrate",
+            "what's my hash rate",
+            "what's my speed",
+            "how fast am i mining",
+            "what is my mining speed",
+            "what's my mining speed",
+            "what's my current mining speed",
+            "what is my speed",
+            "what is my current mining speed",
+            "what is my current speed",
+            "what is my hash rate",
+            "what is my hashrate",
+            "what is my current hashrate",
+            "what's my current hashrate",
+            "what is my current hash rate",
+            "what's my current hash rate"
+          ]
+        },
+        {
+          "name": "BlocksFoundIntent",
+          "slots": [],
+          "samples": [
+            "have i hit any blocks",
+            "how many blocks have i hit",
+            "if i've hit any blocks",
+            "if i hit any blocks",
+            "if i mined any blocks",
+            "if i found any blocks",
+            "if i've mined any blocks",
+            "if i've found any blocks",
+            "have i mined any blocks",
+            "have i found any blocks",
+            "how many blocks have i mined",
+            "how many blocks have i found"
+          ]
+        },
+        {
+          "name": "PaidOutIntent",
+          "slots": [],
+          "samples": [
+            "for my payout",
+            "for my pay out",
+            "for my earnings",
+            "how much crypto i've mined",
+            "how much litecoin i've mined",
+            "how much ltc i've earned",
+            "how much crypto i've earned",
+            "how much litecoin i've earned",
+            "how much money i've earned",
+            "how much ltc i've made",
+            "how much crypto i've made",
+            "how much money i've made",
+            "how much litecoin i've made",
+            "for my total reward pay out",
+            "for my total reward payout",
+            "how much ltc has been sent to my wallet",
+            "how much litecoin has been sent to my wallet",
+            "how much money has been sent to my wallet",
+            "for my reward pay out",
+            "for my reward payout",
+            "for my total pay out",
+            "for my total payout",
+            "for my paid rewards",
+            "how much ltc have i earned",
+            "how much ltc has been paid out",
+            "how much crypto's been paid out",
+            "how much crypto has been paid out",
+            "how much crypto have i earned",
+            "how much crypto have i made",
+            "how much litecoin have i earned",
+            "how much money have i earned",
+            "how much litecoin's been paid out",
+            "how much litecoin has been paid out",
+            "how much money's been paid out",
+            "how much money has been paid out",
+            "how much litecoin have i made",
+            "how much money have i made"
+          ]
+        },
+        {
+          "name": "UnpaidRewardsIntent",
+          "slots": [],
+          "samples": [
+            "for my unpaid litecoin",
+            "for my unpaid money",
+            "for my unpaid rewards",
+            "how much is pending pay out",
+            "how much litecoin is pending pay out",
+            "how much money is pending pay out",
+            "how much is waiting to be paid out",
+            "how much litecoin is waiting to be paid out",
+            "how much money is waiting to be paid out",
+            "how much litecoin hasn't been paid",
+            "how much litecoin has yet to be paid out",
+            "how much litecoin is unpaid",
+            "how much money has yet to be paid out",
+            "how much money hasn't been paid",
+            "how much money is unpaid",
+            "what are my unpaid earnings",
+            "what are my unpaid rewards"
+          ]
+        },
+        {
+          "name": "RewardsPastDayIntent",
+          "slots": [],
+          "samples": [
+            "how much ltc did i earn over the past twenty-four hours",
+            "how much litecoin did i earn over the past twenty-four hours",
+            "how much ltc did i earn over the past day",
+            "how much litecoin did i earn over the past day",
+            "how much ltc did i mine over the past twenty-four hours",
+            "how much litecoin did i mine over the past twenty-four hours",
+            "how much ltc did i mine over the past day",
+            "how much litecoin did i mine over the past day",
+            "for my earnings for the past day",
+            "for my earnings over the past day",
+            "for my earnings for the last twenty-four hours",
+            "for my earnings over the last twenty-four hours",
+            "for my rewards for the past day",
+            "for my rewards over the past day",
+            "for my rewards for the last twenty-four hours",
+            "for my rewards over the last twenty-four hours",
+            "how much ltc have i made over the past twenty-four hours",
+            "how much litecoin have i made over the past twenty-four hours",
+            "how much ltc have i been rewarded over the past twenty-four hours",
+            "how much litecoin have i been rewarded over the past twenty-four hours",
+            "what are my rewards for the past twenty-four hours",
+            "what are my rewards for the past day",
+            "how much ltc have i mined over the past day",
+            "how much litecoin have i mined over the past day",
+            "how much have i mined over the past day",
+            "how much ltc have i made over the past day",
+            "how much litecoin have i made over the past day",
+            "how much ltc have i been rewarded over the past day",
+            "how much litecoin have i been rewarded over the past day"
+          ]
+        },
+        {
+          "name": "ExchangeRateIntent",
+          "slots": [
+            {
+              "name": "currency",
+              "type": "currency",
+              "samples": [
+                "south african rand",
+                "rand",
+                "yuan",
+                "roubles",
+                "russian roubles",
+                "australian dollars",
+                "pounds sterling",
+                "sterling pounds",
+                "pounds",
+                "british pounds",
+                "euro",
+                "canadian dollars",
+                "u.s. dollars"
+              ]
+            }
+          ],
+          "samples": [
+            "to convert one ltc to {currency}",
+            "to convert ltc to {currency}",
+            "to convert one litecoin to {currency}",
+            "to convert litecoin to {currency}",
+            "for the value of one ltc in {currency}",
+            "for the value of ltc in {currency}",
+            "for the value of one litecoin in {currency}",
+            "for the value of litecoin in {currency}",
+            "convert one ltc to {currency}",
+            "convert ltc to {currency}",
+            "convert one litecoin to {currency}",
+            "convert litecoin to {currency}"
+          ]
+        },
+        {
+          "name": "TotalWorkIntent",
+          "slots": [],
+          "samples": [
+            "what's my total completed work",
+            "what's my total work completed",
+            "what is my total work",
+            "what's my total work",
+            "for my total mined",
+            "for the total i have mined",
+            "for the total i've mined",
+            "for the total mined",
+            "for my mining total",
+            "for my total work done",
+            "for how much i have mined",
+            "for how much i've mined",
+            "how much i have mined",
+            "how much i've mined",
+            "for my total work"
+          ]
+        },
+        {
+          "name": "CurrentDifficultyIntent",
+          "slots": [],
+          "samples": [
+            "what is the current mining difficulty",
+            "what's the current mining difficulty",
+            "what is the current network difficulty",
+            "what's the current network difficulty",
+            "for the ltc network difficulty",
+            "for the litecoin network difficulty",
+            "for the current ltc network difficulty",
+            "for the current litecoin network difficulty",
+            "for the network difficulty",
+            "for the current network difficulty",
+            "what's the current difficulty",
+            "what is the current difficulty",
+            "for the ltc difficulty rate",
+            "for the litecoin difficulty rate",
+            "for the current difficulty rate",
+            "for the difficulty rate",
+            "what the current mining difficulty is",
+            "what the current difficulty is",
+            "for the difficulty of mining ltc",
+            "for the difficulty of mining litecoin",
+            "for the mining difficulty",
+            "for the difficulty",
+            "for the current difficulty of mining ltc",
+            "for the current difficulty of mining litecoin",
+            "for the current mining difficulty",
+            "for the current difficulty"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "currency",
+          "values": [
+            {
+              "name": {
+                "value": "ZAR",
+                "synonyms": [
+                  "african rand",
+                  "rands",
+                  "rand",
+                  "south african rand"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "AUD",
+                "synonyms": [
+                  "australian dollars"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "CNY",
+                "synonyms": [
+                  "chinese yuan",
+                  "yuan"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "RUB",
+                "synonyms": [
+                  "rouble",
+                  "russian roubles",
+                  "roubles"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "GBP",
+                "synonyms": [
+                  "pounds",
+                  "pounds sterling",
+                  "sterling pounds",
+                  "british pounds"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "EUR",
+                "synonyms": [
+                  "euro",
+                  "euros"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "CAD",
+                "synonyms": [
+                  "canadian dollars"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "USD",
+                "synonyms": [
+                  "american dollars",
+                  "u.s. dollars",
+                  "u s dollars",
+                  "u.s dollars",
+                  "us dollars"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "ExchangeRateIntent",
+          "delegationStrategy": "ALWAYS",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "currency",
+              "type": "currency",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.462319408066.555506893500"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.462319408066.555506893500.47240276290"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Slot.Validation.462319408066.555506893500.47240276290",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "I can convert the value of Litecoin into the following currencies - U.S. dollars, Canadian dollars, euro, British pounds, Australian dollars, Russian roubles, yuan, and South African rand. Which currency would you like me to convert to?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.462319408066.555506893500",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "I can convert the value of Litecoin into the following currencies - U.S. dollars, Canadian dollars, euro, British pounds, Australian dollars, Russian roubles, yuan, and South African rand. Which currency would you like me to convert to?"
+          }
+        ]
+      }
+    ]
+  }
+}
