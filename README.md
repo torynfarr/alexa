@@ -10,7 +10,7 @@ This repository contains sample skills designed for Alexa, Amazon's voice assist
 This sample sends an https GET request to the REST API at litecoinpool.org to obtain various cryptocurrency mining stats for the target account. It includes eight intents which can be reached by invoking the skill as follows:
 <br />
 <br />
-*"Alexa, ask Litecoin Pool..."*
+*Alexa, ask Litecoin Pool...*
 
 - *for my current hash rate.*
 
@@ -26,7 +26,7 @@ This sample sends an https GET request to the REST API at litecoinpool.org to ob
 
 - *for the current network difficulty.*
 
-- *to convert Litecoin to <currency>*
+- *to convert Litecoin to <'currency'>*
 
 The supported currencies include:  U.S. dollars, Canadian dollars, euro, British pounds, Australian dollars, Russian roubles, yuan, and South African rand.
 
