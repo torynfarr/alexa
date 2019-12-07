@@ -5,10 +5,10 @@ This repository contains sample skills designed for Alexa, Amazon's voice assist
 
 ## 01.[Litecoin Pool Mining Stats](https://github.com/torynfarr/alexa/tree/master/01.litecoin-pool-mining-stats)
 <br />
-<img src="https://github.com/torynfarr/alexa/blob/master/docs/images/litecoin-pool-mining-stats.png" width="175">
+<img src="https://github.com/torynfarr/alexa/blob/master/docs/images/litecoin-pool-mining-stats.png">
 <br />
 This sample sends an https GET request to the REST API at litecoinpool.org to obtain various cryptocurrency mining stats for the target account. It includes eight intents which can be reached by invoking the skill as follows:
-
+<br />
 *"Alexa, ask Litecoin Pool..."*
 
 - *for my current hash rate.*
