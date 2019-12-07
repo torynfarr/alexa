@@ -26,7 +26,7 @@ This sample sends an https GET request to the REST API at litecoinpool.org to ob
 
 - *for the current network difficulty.*
 
-- *to convert Litecoin to <'currency'>*
+- *to convert Litecoin to <currency>*
 
 The supported currencies include:  U.S. dollars, Canadian dollars, euro, British pounds, Australian dollars, Russian roubles, yuan, and South African rand.
 
