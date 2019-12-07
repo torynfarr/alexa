@@ -7,7 +7,7 @@ This repository contains sample skills designed for Alexa, Amazon's voice assist
 <br />
 <img src="https://github.com/torynfarr/alexa/blob/master/docs/images/litecoin-pool-mining-stats.png" height=100 width=87.5>
 <br />
-This sample sends an https GET request to the REST API at litecoinpool.org to obtain various cryptocurrency mining stats for the target account. It includes eight intents which can be reached by invoking the skill as follows:
+This sample skill sends an https GET request to the REST API at litecoinpool.org to obtain various cryptocurrency mining stats for the target account. It includes eight intents which can be reached by invoking the skill as follows:
 <br />
 <br />
 
