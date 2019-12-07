@@ -5,9 +5,10 @@ This repository contains sample skills designed for Alexa, Amazon's voice assist
 
 ## 01.[Litecoin Pool Mining Stats](https://github.com/torynfarr/alexa/tree/master/01.litecoin-pool-mining-stats)
 <br />
-<img src="https://github.com/torynfarr/alexa/blob/master/docs/images/litecoin-pool-mining-stats.png">
+<img src="https://github.com/torynfarr/alexa/blob/master/docs/images/litecoin-pool-mining-stats.png" height=100 width=87.5>
 <br />
 This sample sends an https GET request to the REST API at litecoinpool.org to obtain various cryptocurrency mining stats for the target account. It includes eight intents which can be reached by invoking the skill as follows:
+<br />
 <br />
 *"Alexa, ask Litecoin Pool..."*
 
@@ -31,9 +32,9 @@ The supported currencies include:  U.S. dollars, Canadian dollars, euro, British
 
 The currency conversion (*ExchangeRate*) intent provides an example of using a custom slot which supports canonical names and multiple aliases.
 
-The skill features a summary report which is reachable by simply saying *"Alexa, open Litecoin Pool.*", without including an initial utterance.
+The skill features a summary report which is reachable by simply saying *"Alexa, open Litecoin Pool."*, without including an initial utterance.
 
-Lastly, you can say *"Alexa, ask Litecoin Pool for help.* to hear a list of the questions you can ask the skill.
+Lastly, you can say *"Alexa, ask Litecoin Pool for help."* to hear a list of the questions you can ask the skill.
 
 ## Additional Information
 
