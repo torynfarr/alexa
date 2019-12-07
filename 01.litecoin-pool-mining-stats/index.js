@@ -57,7 +57,7 @@ const LaunchRequestHandler = {
 
         speakOutput = `Here is a quick summary of your Litecoin pool mining stats.`;
 
-        // The hash rate is returned as kilohash. Convert it to hash for easy of formatting.
+        // The hash rate is returned as kilohash. Convert it to hash for ease of formatting.
         obj.user.hash_rate = obj.user.hash_rate * 1000;
 
         // Format the hash rate as zettahash if it's greather than or equal to one sextillion hash. 
