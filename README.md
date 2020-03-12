@@ -48,7 +48,8 @@ With the world currently facing the COVID-19 pandemic, health organizations such
 <br />
 <br />
 Alexa will instruct you to start washing your hands using a soap dispenser positioned to the left of your sink. After twenty-seconds have passed, she'll let you know that you can rinse and dry off your hands. She'll then ask if you've just come in from being outside. If you respond by saying *"No"* then you're done. If you say *"Yes,"* she'll direct you to use a Purell dispenser positioned to the right of your sink. Again, after twenty-seconds have passed, she'll let you know that you can dry off your hands and that they are now clean and sanitized.
-
+<br />
+<br />
 There are two mp3 files that will need to be hosted in a publically accessible location. The skill uses these for a twenty-second and five-second delay.
 
 ## Additional Information
