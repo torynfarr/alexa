@@ -1,0 +1,196 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "washing hands",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "WasOutsideIntent",
+          "slots": [
+            {
+              "name": "yesno",
+              "type": "yesno",
+              "samples": [
+                "i didn't",
+                "i did not",
+                "i did",
+                "negative",
+                "positive",
+                "nope",
+                "yup",
+                "yep",
+                "nah",
+                "yeah",
+                "no",
+                "yes"
+              ]
+            }
+          ],
+          "samples": [
+            "{yesno}"
+          ]
+        },
+        {
+          "name": "PurellWasNeededIntent",
+          "slots": [
+            {
+              "name": "finished",
+              "type": "yesno",
+              "samples": [
+                "no",
+                "yes"
+              ]
+            }
+          ],
+          "samples": [
+            "{finished} I was outside."
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "yesno",
+          "values": [
+            {
+              "name": {
+                "value": "no",
+                "synonyms": [
+                  "i didn't",
+                  "i did not",
+                  "negative",
+                  "nah",
+                  "nope"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "yes",
+                "synonyms": [
+                  "i did",
+                  "positive",
+                  "yup",
+                  "yep",
+                  "yeah"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "WasOutsideIntent",
+          "delegationStrategy": "ALWAYS",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "yesno",
+              "type": "yesno",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1236189976307.1568123026432"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1236189976307.1568123026432.268230218398"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PurellWasNeededIntent",
+          "delegationStrategy": "ALWAYS",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "finished",
+              "type": "yesno",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1424445848311.498035443820"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1424445848311.498035443820.1088207847206"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1236189976307.1568123026432",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Have you just come in from the outside?"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1236189976307.1568123026432.268230218398",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Please respond with yes or no. Have you just come in from the outside?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1545717370749.1179455754856",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Please use the Purell dispenser to the right of the sink. After twenty seconds, I'll let you know that it's time to dry off your hands."
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1424445848311.498035443820",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "You may now dry off your hands. Your hands are now clean and sanitized."
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1424445848311.498035443820.1088207847206",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "You really shouldn't reach this validation rule prompt."
+          }
+        ]
+      }
+    ]
+  }
+}
