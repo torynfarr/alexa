@@ -3,9 +3,9 @@ This repository contains sample skills designed for Alexa, Amazon's voice assist
 <br />
 <br />
 
-## 01.[Litecoin Pool Mining Stats](https://github.com/torynfarr/alexa/tree/master/01.litecoin-pool-mining-stats)
+## 01.[Litecoin Pool Mining Stats](https://github.com/torynfarr/alexa/tree/main/01.litecoin-pool-mining-stats)
 <br />
-<img src="https://github.com/torynfarr/alexa/blob/master/docs/images/litecoin-pool-mining-stats.png" height=100 width=87.5>
+<img src="https://github.com/torynfarr/alexa/blob/main/docs/images/litecoin-pool-mining-stats.png" height=100 width=87.5>
 <br />
 This sample skill sends an https GET request to the REST API at litecoinpool.org to obtain various cryptocurrency mining stats for the target account. It includes eight intents which can be reached by invoking the skill as follows:
 <br />
@@ -40,9 +40,9 @@ Lastly, you can say *"Alexa, ask Litecoin Pool for help."* to hear a list of the
 <br />
 <br />
 
-## 02.[Washing Your Hands](https://github.com/torynfarr/alexa/tree/master/02.washing-your-hands)
+## 02.[Washing Your Hands](https://github.com/torynfarr/alexa/tree/main/02.washing-your-hands)
 <br />
-<img src="https://github.com/torynfarr/alexa/blob/master/docs/images/washing-your-hands.png" height=100 width=87.5>
+<img src="https://github.com/torynfarr/alexa/blob/main/docs/images/washing-your-hands.png" height=100 width=87.5>
 <br />
 With the world currently facing the COVID-19 pandemic, health organizations such as the CDC in the United States are trying to make sure people wash their hands for a full twenty-seconds. One of their suggestions was that people sing the Happy Birthday song two times while washing their hands. This sample skill takes a more modern approach! Invoke the skill by saying *"Alexa, start washing hands."*
 <br />
